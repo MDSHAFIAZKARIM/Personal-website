@@ -1,0 +1,113 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+}
+/*--Top & Middle Sectione--*/
+section{
+   height: 800px;
+   font-size: 20px;
+   text-align: justify;
+   margin-bottom: 20px ;
+}
+.header-area{
+    background-image: url("Backgorund/header-bg.png");
+    background-repeat: no-repeat;
+}
+h1{
+    font-size: 50px;
+}
+.discriptione{
+    color: dimgray;
+}
+.discriptione:hover{
+    color: green;
+}
+.name{
+    color:#EC4C7A;
+}
+a{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, #9e1d42, #ff2500 );
+    padding: 10px 20px;
+    line-height: 50px;
+    border-radius: 6px;
+    color: #fff;
+    font-weight: 700;
+}
+.side{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+.side img{
+    width: 100%;
+}
+.middle-area{
+    background-image: url("Backgorund/biography-bg.png");
+    background-repeat: no-repeat;
+}
+.middle-area h2{
+    text-align: left;
+    margin-top: 200px;;
+}
+.middle-area .left img{
+    height: 800px;
+} 
+
+/*------- Last-Work Sectione--------*/
+.project-area{
+    background-image: url("Backgorund/latest-work-bg.png");
+    background-repeat: no-repeat;
+    
+}
+.project img{
+    width:400px;
+}
+.image h2{
+    margin-top: 150px;
+    text-align: center;
+}
+.image {
+    width: 80%;
+    margin: auto;
+}
+#project{
+    float: left;
+    margin:20px;
+}
+/*------- Footer Sectione--------*/
+.footer-area{
+    background-image: url("Backgorund/footer-bg.png");
+    background-repeat: no-repeat;
+}
+.footer{
+    text-align: center;
+}
+.founder{
+    margin-top: 150px;
+}
+h4{
+    color: dimgray;
+    font-size: 18px; 
+}
+.last {
+    color: dimgray;
+    margin-top: 300px;
+    font-size: 18px;
+}
+
+.box{
+    background-color: firebrick;
+    background-image: linear-gradient(45deg, #9e1d42, #ff2500 );
+    text-align: center;
+    width: 350px;
+    padding:  30px 70px;
+    border-radius: 6px;
+    margin-left: 37%;
+    color: #fff;
+    font-size: 25px;
+}
+.box p{
+    font-size: 14px;
+}
